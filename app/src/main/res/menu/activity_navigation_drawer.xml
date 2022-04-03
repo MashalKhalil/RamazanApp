@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_dua"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="@string/menu_Dua" />
+        <item
+            android:id="@+id/nav_prayer"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/menu_prayer" />
+        <item
+            android:id="@+id/nav_Name"
+            android:icon="@drawable/ic_baseline_filter_9_plus_24"
+            android:title="@string/menu_Name" />
+        <item
+            android:id="@+id/nav_Calendar"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="@string/menu_Calendar" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_baseline_directions_24"
+            android:title="@string/menu_Guide" />
+    </group>
+</menu>

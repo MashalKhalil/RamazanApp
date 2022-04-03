@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ramazan_App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Calendar">Calendar</string>
+    <string name="menu_Dua">Dua</string>
+    <string name="menu_Name">99 Names of ALLAH</string>
+    <string name="menu_Guide">Guide</string>
+    <string name="menu_prayer">PrayerTime</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Arabic</string>
+    <string name="tab_text_2">Translation</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+</resources>

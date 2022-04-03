@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ramazan_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dua"
+        android:name="com.example.ramazan_app.ui.Dua.DuaFragment"
+        android:label="@string/menu_Dua"
+        tools:layout="@layout/fragment_dua" />
+
+    <fragment
+        android:id="@+id/nav_Name"
+        android:name="com.example.ramazan_app.ui.name.NameFragment"
+        android:label="@string/menu_Name"
+        tools:layout="@layout/fragment_dua" />
+
+    <fragment
+        android:id="@+id/nav_guide"
+        android:name="com.example.ramazan_app.ui.guide.GuideFragment"
+        android:label="@string/menu_Guide"
+        tools:layout="@layout/fragment_guide" />
+
+    <fragment
+        android:id="@+id/nav_Calendar"
+        android:name="com.example.ramazan_app.ui.Calendar.CalendarFragment"
+        android:label="@string/menu_Calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/nav_prayer"
+        android:name="com.example.ramazan_app.ui.Prayer.PrayerFragment"
+        android:label="@string/menu_prayer"
+        tools:layout="@layout/fragment_prayer" />
+
+</navigation>

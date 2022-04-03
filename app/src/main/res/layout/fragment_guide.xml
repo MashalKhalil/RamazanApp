@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_5"
+        android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#85DAC3C3"
+            android:gravity="center"
+            android:text="RAMADAN GUIDE"
+            android:textColor="#651E1E"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="-> WISDOM OF FASTING:"
+            android:textColor="#2B6C0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.227" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="348dp"
+            android:layout_height="235dp"
+            android:layout_marginTop="12dp"
+            android:text="As one of Islam’s five pillars, fasting in Ramadan was prescribed by Allah (swt) as an obligatory act for all those who are able to. Fasting, however, is more than just a simple act of worship. It has a holistic influence on our physical and mental states, offering benefit for both. The Qur’an states: “Oh you who believe! Fasting is prescribed to you as it was prescribed to those before you, that you may learn piety and righteousness.” (Qur’an 2:183)"
+            android:textColor="#0C0404"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.537"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> REWARDS OF FASTING"
+            android:textColor="#2B6C0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.359"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.017" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="-> WHAT IS RAMDAN?"
+            android:textColor="#2B6C0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.912"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="355dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="12dp"
+            android:text="Ramadan is the most sacred month of the year for Muslims.  During its 29 to 30 days, Muslims fast every day from sunrise to sunset.   When the sun sets, there is a communal meal called Iftar where you break your fast, typically with your family or friends.   But the month of Ramadan is about more than just fasting.  Doing good deeds such as charity, increasing your generosity and abstaining from sinful acts, such as gossip, are all important traits of Ramadan.   It is a month of self-reflection and a way for Muslims to develop positive habits that can be continued and encouraged once Ramadan is over."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="357dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:text=" Allah says in the Quran, in Surah Al-Baqarah (2-183):  'O you who believe, siyam is prescribed on you as it was prescribed to those before you so that you may become self-restrained.'"
+            android:textColor="#040404"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="357dp"
+            android:layout_height="236dp"
+            android:layout_marginTop="116dp"
+            android:text="The importance of Siyam in Ramadan is clearly expressed in several sayings of the Prophet(S.A.W.). It is reported by Abu Hurairah that the Prophet said:  'He who fasts during Ramadan with faith and seeks his reward from Allah will have his past sins forgiven; he who prays during the night in Ramadan with faith and seeks his reward from Allah will have his past sins forgiven; and he who passes Lailat al- Qadr in prayer with faith and seeks his reward from Allah will have his past sins forgiven.'"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="287dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="364dp"
+            android:text="-> WHO IS EXEMPT FROM SAWM?"
+            android:textColor="#2B6C0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="362dp"
+            android:layout_height="404dp"
+            android:layout_marginTop="408dp"
+            android:text="Fasting is mandatory on every Muslim who is sane, adult, able and resident. The following exemptions apply:  the insane; children who are not adolescent yet; the elderly and chronically ill for whom fasting is unreasonably strenuous; Such persons are required to feed at least one poor person every day in Ramadan for which he or she has missed fasting. pregnant women and nursing may postpone the fasting at a later time; the ill and the travellers can also defer their fasting. Allah says in the Qur'an, Surah Al-Baqara: 'But if anyone is ill, or on a journey, the prescribed period should be made up by days later. Allah intends every facility for you; He does not want to put you to difficulties.'  Women during the period of menstruation or of postchildbirth confinement. Fasting during these periods is forbidden and should be made up later, a day for a day."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.289"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

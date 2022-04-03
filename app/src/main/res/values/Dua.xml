@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dua_name">
+        <item>Dua for Fasting</item>
+        <item>Dua for Breaking Fast</item>
+        <item>Dua for Sighting the Crescent Moon</item>
+        <item>Dua for Laila tul Qadr</item>
+        <item>Dua for 1st 10 Days of Ramzan</item>
+        <item>Dua for 11 to 20 Days of Ramzan</item>
+        <item>Dua for last 10 Days of Ramadan</item>
+    </string-array>
+
+    <string-array name="dua">
+        <item>وَبِصَوْمِ غَدٍ نَّوَيْتُ مِنْ شَهْرِ رَمَضَانَ</item>
+        <item>للَّهُمَّ اِنِّى لَكَ صُمْتُ وَبِكَ امنْتُ وَعَليْكَ تَوَكّلتُ وَ عَلى رِزْقِكَ اَفْطَرْتُ</item>
+        <item>اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالأَمْنِ وَالإِيمَانِ ، والسَّلامَةِ والإِسْلامِ ، وَالتَّوْفِيقِ لِمَا تُحِبُّ وَتَرْضَى ، رَبُّنَا وَرَبُّكَ اللهُ</item>
+        <item>اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي</item>
+        <item>يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغيثُ</item>
+        <item>اَسْتَغْفِرُ اللہَ رَبِّی مِنْ کُلِّ زَنْبٍ وَّ اَتُوْبُ اِلَیْہِ</item>
+        <item>اللَّهُمَّ أَجِرْنِي مِنْ النَّارِ</item>
+    </string-array>
+
+    <string-array name="trans">
+        <item>I intend to keep the fast for tomorrow in the month of Ramadan</item>
+        <item>O Allah! I fasted for You and I believe in You and I put my trust in You and I break my fast with Your sustenance</item>
+        <item>O Allah, let the crescent loom above us in peace and faith, safety and Islam, and in agreement with all that You love and pleases You. Our Lord and your Lord is Allah.</item>
+        <item>O Allah, indeed You are Pardoning, [Generous,] You love pardon, so pardon me</item>
+        <item>O the Living, O the Eternal, I seek help in Your grace</item>
+        <item>I seek forgiveness from Allah for all my sins and turn to Him.</item>
+        <item>O, Allah! Save me from the Hell – Fire.</item>
+    </string-array>
+</resources>
